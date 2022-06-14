@@ -1,7 +1,6 @@
 import Header from './Components/Header/Header'
 import Sidebar from './Components/Sidebar/Sidebar';
 import Content from './Components/Content/Content'
-import products from './Components/Products/products';
 import './App.css';
 import './index.css'
 
@@ -11,7 +10,7 @@ function App() {
       <Header />
       <div className='container' >
         <Sidebar />
-        <Content data = {products.products}/>
+        <Content />
       </div>
     </div>
   );
